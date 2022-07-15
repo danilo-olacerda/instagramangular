@@ -1,0 +1,18 @@
+.post {
+    border-radius: 3px;
+    border: 1px solid #DBDBDB;
+    display: flex;
+    flex-direction: column;
+    margin-top: 18px;
+  }
+  .post .top {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 16px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .post .topo .user, .post .topo .actions {
+    display: flex;
+    align-items: center;
+  }

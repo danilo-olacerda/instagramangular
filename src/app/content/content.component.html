@@ -1,0 +1,21 @@
+<div class="left">
+    <div class="stories">
+        <div class="story" *ngFor="let props of data">
+            <div class="imagem">
+                <img src={{props.image}} />
+            </div>
+            <div class="usuario">
+                {{props.user}}
+            </div>
+        </div>
+        <div class="arrow">
+          <img src="../../assets/images/chevron-forward-circle.svg" alt="">
+        </div>
+    </div>
+
+    <div class="posts" *ngFor="let props of postsData">
+        
+        <ig-post [user]="props.user" [image]="props.image"></ig-post>
+
+    </div>
+</div>
