@@ -12,7 +12,37 @@
     font-size: 14px;
     font-weight: 500;
   }
-  .post .topo .user, .post .topo .actions {
+  .post .top .user, .post .top .actions {
     display: flex;
     align-items: center;
+  }
+  .bot .postActions {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 16px;
+    font-size: 4px;
+  }
+  .postActions img, .actions img {
+    height: 18px;
+    margin-right: 3px;
+  }
+  .likes {
+    display: flex;
+    align-items: center;
+    padding: 0 16px 13px;
+    font-weight: 300;
+  }
+  .likes img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  .post:last-child {
+    margin-bottom: 18px;
+  }
+  .user img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
   }

@@ -1,11 +1,11 @@
 <div class="post">
     <div class="top">
         <div class="user">
-            <!-- <img src={props.userImage} /> -->
+            <img src={{userImage}}/>
             {{user}}
         </div>
         <div class="actions">
-            ellipsis-horizontal
+            <img src="../../assets/images/ellipsis-horizontal.svg" alt="">
         </div>
     </div>
 
@@ -13,22 +13,22 @@
         <img src={{image}} alt="">
     </div>
 
-    <div class="fundo">
-        <div class="acoes">
+    <div class="bot">
+        <div class="postActions">
             <div>
-                liked
-                chatbubble-outline
-                paper-plane-outline
+                <img src="../../assets/images/heart-outline.svg" alt="">
+                <img src="../../assets/images/chat bubble.png" alt="">
+                <img src="../../assets/images/paper-plane.png" alt="">
             </div>
             <div>
-                bookmark-outline
+                <img src="../../assets/images/bookmark-outline.svg" alt="">
             </div>
         </div>
 
-        <div class="curtidas">
-            img src=props.likedImage
+        <div class="likes">
+            <img src={{likedImage}} alt="">
             <div class="texto">
-                Curtido por <strong>likedName</strong> e <strong>outras likedNumber pessoas</strong>
+                Curtido por <strong>{{likedName}}</strong> e <strong>outras {{likedNumber}} pessoas</strong>
             </div>
         </div>
     </div>

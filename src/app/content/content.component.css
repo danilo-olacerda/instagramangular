@@ -34,3 +34,13 @@
     cursor: pointer;
     margin-right: 10px;
   }
+  .user {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  .user > p {
+    text-overflow: ellipsis;
+    width: 100%;
+    text-align: center;
+  }

@@ -4,8 +4,10 @@
             <div class="imagem">
                 <img src={{props.image}} />
             </div>
-            <div class="usuario">
-                {{props.user}}
+            <div class="user">
+                <p>
+                    {{props.user}}
+                </p>
             </div>
         </div>
         <div class="arrow">
@@ -15,7 +17,7 @@
 
     <div class="posts" *ngFor="let props of postsData">
         
-        <ig-post [user]="props.user" [image]="props.image"></ig-post>
+        <ig-post [user]="props.user" [image]="props.image" [userImage]="props.userImage" [likedImage]="props.likedImage" [likedNumber]="props.likedNumber" [likedName]="props.likedName"></ig-post>
 
     </div>
 </div>
